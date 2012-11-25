@@ -291,6 +291,7 @@ function wp_social_bookmarking_light_options_page()
                 <select name='position'>
                 <option value='top' <?php if( $options['position'] == 'top' ) echo 'selected'; ?>>Top</option>
                 <option value='bottom' <?php if( $options['position'] == 'bottom' ) echo 'selected'; ?>>Bottom</option>
+                <option value='both' <?php if( $options['position'] == 'both' ) echo 'selected'; ?>>Both</option>
                 <option value='none' <?php if( $options['position'] == 'none' ) echo 'selected'; ?>>None</option>
                 </select>
                 </td>

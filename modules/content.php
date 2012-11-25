@@ -140,6 +140,9 @@ function wp_social_bookmarking_light_the_content( $content )
     else if( $options['position'] == 'bottom' ){
         return "{$content}{$out}";
     }
+    else if( $options['position'] == 'both' ){
+        return "{$out}{$content}{$out}";
+    }
     return $content;
 }
 
