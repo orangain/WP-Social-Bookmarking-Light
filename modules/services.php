@@ -387,7 +387,7 @@ class WpSocialBookmarkingLight
                                     .'&amp;action='.$action
                                     .'&amp;colorscheme='.$colorscheme
                                     .($font == '' ? '' : '&amp;font='.$font)
-                                    .($locale == '' ? '' : '$amp;locale='.$locale)
+                                    .($locale == '' ? '' : '&amp;locale='.$locale)
                                     .'&amp;height=21"'
                                     .' scrolling="no" frameborder="0"'
                                     .' style="border:none; overflow:hidden; width:'.$width.'px; height:21px;"'
